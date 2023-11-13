@@ -6,9 +6,121 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "bcc26072-4a20-41b2-922b-4529c58ad3f8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21492030112036__bcc26072-4a20-41b2-922b-4529c58ad3f8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Object",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--21492030112036__bcc26072-4a20-41b2-922b-4529c58ad3f8-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "e5762c27-b85e-4073-9e2e-fc00aaff86df": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{page.title}}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "64b594a0-7947-4f93-8f9d-36989b993d24": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21492030112036__64b594a0-7947-4f93-8f9d-36989b993d24-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tag",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--21492030112036__64b594a0-7947-4f93-8f9d-36989b993d24-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "b8ccd922-a2f1-4abb-b7be-7ac5775e1ccc": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{%- if page.title == \"Liquid\" -%}\nYes the title is Liquid\n{%- endif -%}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "d34b3bb0-98a0-48ae-b2c7-acbbc14e14ac": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21492030112036__d34b3bb0-98a0-48ae-b2c7-acbbc14e14ac-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Filters",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--21492030112036__d34b3bb0-98a0-48ae-b2c7-acbbc14e14ac-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "176203bb-b7f7-4d04-901c-dbad2a6e04f6": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{ \"hello world\" | upcase }}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "28313efc-457e-40ec-a08e-fea5bbb925f4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{%- unless page.title == \"Liquid\" -%}\nThe page title is NOT still Liquid\n{%- endunless -%}",
+        "color_scheme": "",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "bcc26072-4a20-41b2-922b-4529c58ad3f8",
+    "e5762c27-b85e-4073-9e2e-fc00aaff86df",
+    "64b594a0-7947-4f93-8f9d-36989b993d24",
+    "b8ccd922-a2f1-4abb-b7be-7ac5775e1ccc",
+    "d34b3bb0-98a0-48ae-b2c7-acbbc14e14ac",
+    "176203bb-b7f7-4d04-901c-dbad2a6e04f6",
+    "28313efc-457e-40ec-a08e-fea5bbb925f4"
   ]
 }
